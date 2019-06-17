@@ -5,9 +5,9 @@ message.delete()
     const embed = new Discord.RichEmbed()
 
         .setColor("199AD0")
-      .setTitle("⏰ | t!rappel <message>")
-      .setDescription(` __Rappel :__ ${args.join(' ')}`)
-     .setFooter(message.author, 'https://cdn.discordapp.com/emojis/533366616059281449.png?v=1')
+      .setTitle(`⏰ __Rappel :__ ${args.join(' ')}`)
+      .setDescription(`t!rappel <message>`)
+      .setFooter(message.tag, 'https://cdn.discordapp.com/emojis/533366616059281449.png?v=1')
 
 
     message.channel.send(embed);
