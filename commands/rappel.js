@@ -7,7 +7,7 @@ message.delete()
         .setColor("199AD0")
       .setTitle(`⏰ __Rappel :__ ${args.join(' ')}`)
       .setDescription(`t!rappel <message>`)
-      .setFooter(message.tag, 'https://cdn.discordapp.com/emojis/533366616059281449.png?v=1')
+      .setFooter(message.author.tag, 'https://cdn.discordapp.com/emojis/533366616059281449.png?v=1')
 
 
     message.channel.send(embed);
