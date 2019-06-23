@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 exports.run = (client, message) => {
 
-
+if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
 
    let planning = ["",
 "**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
@@ -34,8 +34,8 @@ exports.run = (client, message) => {
     
 
   message.channel.send(embed1)
+   };
 };
-
     exports.conf = {
       enabled: true,
       guildOnly: false,
@@ -44,8 +44,8 @@ exports.run = (client, message) => {
     };
 
     exports.help = {
-      name: 'role',
-      description: 'Crée le salon #rôle',
-      usage: 'role',
+      name: 'planning',
+      description: 'Crée le planning',
+      usage: 'planning',
       aliase: ['Aucun aliase n\'est disponible pour cette commande.']
     }
