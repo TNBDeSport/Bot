@@ -3,10 +3,10 @@ exports.run = (client, message) => {
 
 if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
 
-   let planning = [" ",
-"**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
+  
+let planning = ["**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
 "        <:TNBD:533366616059281449> **Planning Animation** <:TNBD:533366616059281449>",
-"**┗╋━━━━━◥◣◆◢◤━━━━━╋┛**"
+"**┗╋━━━━━◥◣◆◢◤━━━━━╋┛**",
 " ",
 "**Mercredi :**",
 "   ╠══► 21H",
