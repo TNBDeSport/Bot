@@ -5,7 +5,7 @@ if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837
 
   
 let planning = ["**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
-"        <:TNBD:533366616059281449> **Planning Animation** <:TNBD:533366616059281449>",
+"              <:TNBD:533366616059281449> **Planning Animation** <:TNBD:533366616059281449>",
 "**┗╋━━━━━◥◣◆◢◤━━━━━╋┛**",
 " ",
 "**Mercredi :**",
