@@ -5,10 +5,7 @@ exports.run = (client, message) => {
 if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
 
   
-let planning = ["**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
-"              <:TNBD:533366616059281449> **Planning Animation** <:TNBD:533366616059281449>",
-"**┗╋━━━━━◥◣◆◢◤━━━━━╋┛**",
-" "]
+
 
 
 
@@ -20,7 +17,7 @@ let planning = ["**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
     var embed1 = new Discord.RichEmbed()
     .setColor('199AD0')
     .setImage("https://imge.to/i/g6RZC")
-    .setDescription(planning)
+   
 
    
     
