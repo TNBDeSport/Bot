@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Pimage = require('../ps.png');
+const Pimage = require('../ps.PNG');
 exports.run = (client, message) => {
 
 if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
