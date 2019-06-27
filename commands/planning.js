@@ -16,7 +16,7 @@ if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837
    
     var embed1 = new Discord.RichEmbed()
     .setColor('199AD0')
-    .setImage("https://imgshare.io/image/SKHQd")
+    .setImage("https://imgur.com/Mfxzs9a")
    
 
    
