@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Pimage = require('../ps.PNG');
+// const Pimage = require('../ps.PNG');
 exports.run = (client, message) => {
 
 if (message.member.hasPermission('ADMINISTRATOR') || message.author.id == 302837596600664065) {
@@ -19,7 +19,7 @@ let planning = ["**┏╋━━━━━◥◣◆◢◤━━━━━╋┓**",
    
     var embed1 = new Discord.RichEmbed()
     .setColor('199AD0')
-    .setImage()
+    .setImage("https://imge.to/i/g6RZC")
     .setDescription(planning)
 
    
